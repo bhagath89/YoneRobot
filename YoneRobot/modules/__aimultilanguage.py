@@ -62,7 +62,7 @@ async def hmm(_, message):
             await lel.edit("yone AI Already Activated In This Chat")
             return
         await lel.edit(
-            f"ᴀʀɪᴀɴᴀ AI Successfully Added For Users In The Chat {message.chat.id}"
+            f"ariyana AI Successfully Added For Users In The Chat {message.chat.id}"
         )
 
     elif status == "OFF" or status == "off" or status == "Off":
@@ -72,7 +72,7 @@ async def hmm(_, message):
             await lel.edit("ᴀʀɪᴀɴᴀ AI Was Not Activated In This Chat")
             return
         await lel.edit(
-            f"yone AI Successfully Deactivated For Users In The Chat {message.chat.id}"
+            f"ariyana AI Successfully Deactivated For Users In The Chat {message.chat.id}"
         )
 
     elif status == "EN" or status == "en" or status == "english":
@@ -359,7 +359,7 @@ __help__ = """
 ᴀʀɪᴀɴᴀ AI 3.0 IS THE ONLY AI SYSTEM WHICH CAN DETECT & REPLY UPTO 200 LANGUAGES
  - /chatbot [ON/OFF]: Enables and disables AI Chat mode (EXCLUSIVE)
  - /chatbot EN : Enables English only chatbot
- 
+ - join @FlyingKILI 
 """
 
 __mod_name__ = "chatbot"
