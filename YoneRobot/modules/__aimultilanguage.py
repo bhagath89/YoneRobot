@@ -59,7 +59,7 @@ async def hmm(_, message):
         lel = await edit_or_reply(message, "`Processing...`")
         lol = add_chat(int(message.chat.id))
         if not lol:
-            await lel.edit("yone AI Already Activated In This Chat")
+            await lel.edit("ᴀʀɪᴀɴᴀ AI Already Activated In This Chat")
             return
         await lel.edit(
             f"ariyana AI Successfully Added For Users In The Chat {message.chat.id}"
@@ -72,7 +72,7 @@ async def hmm(_, message):
             await lel.edit("ᴀʀɪᴀɴᴀ AI Was Not Activated In This Chat")
             return
         await lel.edit(
-            f"ariyana AI Successfully Deactivated For Users In The Chat {message.chat.id}"
+            f"ariana AI Successfully Deactivated For Users In The Chat {message.chat.id}"
         )
 
     elif status == "EN" or status == "en" or status == "english":
@@ -114,8 +114,8 @@ async def hmm(client, message):
         message.continue_propagation()
     if chat_id in en_chats:
         test = msg
-        test = test.replace("yone", "Aco")
-        test = test.replace("yone", "Aco")
+        test = test.replace("ᴀʀɪᴀɴᴀ", "Aco")
+        test = test.replace("ᴀʀɪᴀɴᴀ", "Aco")
         URL = "https://api.affiliateplus.xyz/api/chatbot?message=hi&botname=@YoneRobot&ownername=@A_viyu"
 
         try:
@@ -125,7 +125,7 @@ async def hmm(client, message):
 
         try:
             result = r.json()
-        except:
+            cept:
             return
 
         pro = result["message"]
@@ -275,7 +275,7 @@ async def inuka(client, message):
 
 
 @Yone.on_message(
-    filters.regex("yone|yone|Yone|Yone|Yone")
+    filters.regex("ᴀʀɪᴀɴᴀ|ariana|Ariana|Ariana|Ariana")
     & ~filters.bot
     & ~filters.via_bot
     & ~filters.forwarded
