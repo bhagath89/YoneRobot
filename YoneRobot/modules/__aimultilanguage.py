@@ -62,7 +62,7 @@ async def hmm(_, message):
             await lel.edit("ᴀʀɪᴀɴᴀ AI Already Activated In This Chat")
             return
         await lel.edit(
-            f"ariyana AI Successfully Added For Users In The Chat {message.chat.id}"
+            f"ᴀʀɪᴀɴᴀ AI Successfully Added For Users In The Chat {message.chat.id}"
         )
 
     elif status == "OFF" or status == "off" or status == "Off":
@@ -72,7 +72,7 @@ async def hmm(_, message):
             await lel.edit("ᴀʀɪᴀɴᴀ AI Was Not Activated In This Chat")
             return
         await lel.edit(
-            f"ariana AI Successfully Deactivated For Users In The Chat {message.chat.id}"
+            f"ᴀʀɪᴀɴᴀ AI Successfully Deactivated For Users In The Chat {message.chat.id}"
         )
 
     elif status == "EN" or status == "en" or status == "english":
@@ -177,8 +177,8 @@ async def hmm(client, message):
         # test = emoji.demojize(test.strip())
 
         # Kang with the credits bitches @InukaASiTH
-        test = test.replace("yone", "Aco")
-        test = test.replace("yone", "Aco")
+        test = test.replace("ᴀʀɪᴀɴᴀ", "Aco")
+        test = test.replace("ᴀʀɪᴀɴᴀ", "Aco")
         URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@YoneRobot&ownername=@A_viyu"
         try:
             r = requests.request("GET", url=URL)
